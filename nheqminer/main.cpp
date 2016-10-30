@@ -145,10 +145,10 @@ int main(int argc, char* argv[])
 
 
 	if (!benchmark)
-	{	
+	{
 		size_t delim = location.find(':');
-	        std::string host = location.substr(0, delim);
-            	std::string port = location.substr(delim+1);
+        std::string host = location.substr(0, delim);
+        std::string port = location.substr(delim+1);
 
 		std::shared_ptr<boost::asio::io_service> io_service(new boost::asio::io_service);
 
