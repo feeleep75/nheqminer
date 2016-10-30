@@ -2,7 +2,7 @@
 
 ## Windows:
 
-Windows builds made by us are available here: https://github.com/feeleep75/nheqminer/releases
+Windows builds made by us are available here: https://github.com/etherchain-org/etherchain-org/releases
 
 Download and install:
 - Visual Studio 2013 Community: https://www.visualstudio.com/en-us/news/releasenotes/vs2013-community-vs
@@ -25,7 +25,7 @@ Under Ubuntu open a terminal and run the following commands:
 ## Linux (Ubuntu/Debian based, Tested on Ubuntu 16.04):
 To build under Ubuntu Linux make sure you have Qt5 installed. You can install it manually from [Qt website](https://www.qt.io/) or install it from the command line: `sudo apt-get install qt5-default`.
 Open a terminal and cd to nheqminer root folder and run the following commands (make sure you have qmake in your PATH, if installed manually from Qt website you will have to export it to your PATH):
-  - `git clone https://github.com/feeleep75/nheqminer.git`
+  - `git clone https://github.com/etherchain-org/nheqminer.git`
   - `cd nheqminer`
   - `mkdir build`
   - `cd build`
@@ -38,7 +38,7 @@ Open a terminal and cd to nheqminer root folder and run the following commands (
 If run without parameters, miner will start mining with 75% of available virtual cores on NiceHash. Use parameter -h to learn about available parameters:
 
         -h              Print this help and quit
-        -l [location]   Stratum server (zec.coinmine.pl:7007)
+        -l [location]   Stratum server (eu1-zcash.flypool.org:3333)
         -u [username]   Username (worker_name)
         -p [password]   Password (default: x)
         -t [num_thrds]  Number of threads (default: number of sys cores)
